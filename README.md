@@ -1,6 +1,6 @@
 # timely_timetable
 
-A new Flutter project.
+Flutter school timetable application where teachers can schedule classes
 
 ## Getting Started
 
