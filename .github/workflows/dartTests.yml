@@ -1,10 +1,10 @@
-name: Dart CI
+name: Dart Tests CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test-branch ]
   pull_request:
-    branches: [ main ]
+    branches: [ dev-branch ]
 
 jobs:
   build:
@@ -17,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      run: pub get
+      run: flutter pub get
     - name: Run tests
       run: pub run test
