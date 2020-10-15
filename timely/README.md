@@ -1,4 +1,4 @@
-# timely_timetable
+# timely
 
 A new Flutter project.
 
